@@ -1,0 +1,240 @@
+/* font-family: 'Shippori Mincho', serif; */
+/* font-family: 'Amatic SC', cursive; */
+
+.body{
+    width: 1300px;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Shippori Mincho', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    margin-top: 10px;
+    height: 70px;
+    width: 1000px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    color: #55bbbb;
+    text-align: right;
+}
+
+/* Firstview */
+.chatchcopy-img img{
+    width: 100%;
+    position: relative;
+} 
+
+.chatchcopy{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.chatchcopy-ttl{
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.emphasis-size-color{
+    font-size: 64px;
+    color: #55bbbb;
+}
+
+.price{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon-txt{
+    background: #FF4384;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.period{
+    padding: 25px 0 25px 0;
+}
+
+.price-txt{
+    padding: 10px 30px;
+}
+
+.price-txt-conditions{
+    color: #55bbbb;
+    font-size: 12px;
+}
+
+.price-txt-price{
+    margin-top: 10px;
+    color: #FF4384;
+    font-size: 18px;
+}
+
+.emphasis-size{
+    font-size: 30px;
+}
+
+
+.btn{
+    margin-top: 30px;
+    background: #FF4384;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 8px #FF4384;
+}
+
+.campain-btn{
+    color: #fff;
+}
+
+.emphasis-italic{
+    font-style: italic;
+}
+
+.chatchcopy-footer{
+    width: 1000px;
+    height: 100px;
+    background: #55bbbb;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 470px;
+}
+
+.firstview-footer-tryangle{
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #55bbbb transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+}
+
+.firstview-footer{
+    padding: 30px 0;
+}
+
+/* Trouble */
+.trouble{
+    margin-left: 50px;
+    margin-top: 140px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.trouble-img img{
+    width: 70%;
+}
+
+.trouble-text-box{
+    border: 1px solid #55bbbb;
+    border-radius: 30px;
+    padding: 25px;
+    height: 150px;
+}
+
+.trouble-text-line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid #55bbbb;
+}
+
+.trouble-text-line-txt{
+    padding-left: 10px;
+    color: #55bbbb;
+}
+
+.solution{
+    width: 1000px;
+    height: 200px;
+    background: #55bbbb;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 860px;
+}
+
+.solution-txt{
+    line-height: 40px;
+    height: 100%;
+    padding:30px 0 30px 0;
+}
+
+.emphasis-font{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.emphasis-color{
+    color: #FF4384;
+    font-size: 30px;
+}
+
+/* POINT */
+.point{
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 200px;
+    border: 1px solid #55bbbb;
+    position: relative;
+}
+
+.card-tag{
+    position: absolute;
+    top:-15px;
+    left:20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    background-color: #fff;
+    color: #55bbbb;
+}
+
+.card:not(:first-child){
+    margin-left: 20px;
+}
+
+.card-txt{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.card-exp{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
